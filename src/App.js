@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Router>
-        <banner>Rebecca D. Diroll</banner>
+        <h1>Rebecca D. Diroll</h1>
         <br></br>
         <NavTabs></NavTabs>
         <Route exact path="/" component={Home} />
