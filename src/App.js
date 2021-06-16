@@ -9,6 +9,7 @@ function App() {
     <>
       <Router>
         <banner>Rebecca D. Diroll</banner>
+        <br></br>
         <NavTabs></NavTabs>
         <Route exact path="/" component={Home} />
         {/* <Route exact path="/projects" component={Projects} />
