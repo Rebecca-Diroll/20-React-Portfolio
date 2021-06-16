@@ -7,7 +7,6 @@ function NavTabs() {
         <navbar>
             <button>About Me</button>
             <button>Work</button>
-            <button>Contact Me</button>
             <button>Resume</button>
         </navbar>
     )

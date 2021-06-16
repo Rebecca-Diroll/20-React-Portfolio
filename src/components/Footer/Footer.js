@@ -5,10 +5,10 @@ import React from "react";
 function Footer() {
     return (
         <navbar>
-            <button>About Me</button>
-            <button>Work</button>
-            <button>Contact Me</button>
-            <button>Resume</button>
+            <button>GitHub</button>
+            <button>LinkedIn</button>
+            <button>Email</button>
+            <button>Phone</button>
         </navbar>
     )
 }
