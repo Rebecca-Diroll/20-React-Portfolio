@@ -9,6 +9,7 @@ function Project(props) {
             <p>props.projectDesc</p>
             <img>props.projectImage</img>
             <p>props.projectLink</p>
+        </>
     )
 }
 
