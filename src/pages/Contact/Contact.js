@@ -41,6 +41,27 @@ function Resume() {
             <div>    
                 Soft Skills: Detail Oriented, Collaboration, Communication, and Interpersonal Skills
             </div>
+            <h2>
+            TECHNICAL SKILLS
+            </h2>
+            <p>
+                <div>
+                    Boot Camp Certificate: The Ohio State University, Columbus, OH
+                </div>
+                <div>
+                    A 24-week Full Stack Development boot camp designed to gain experience in creating 
+                    user interfaces, servers, and databases for websites and mobile platforms.
+                </div>
+            </p>
+            <p>
+                <div>
+                    Boot Camp Certificate: The Ohio State University, Columbus, OH
+                </div>
+                <div>
+                    A 24-week Full Stack Development boot camp designed to gain experience in creating 
+                    user interfaces, servers, and databases for websites and mobile platforms.
+                </div>
+            </p>
         </>
     )
 }
