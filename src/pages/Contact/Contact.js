@@ -1,6 +1,6 @@
 import React from "react";
 
-function Resume() {
+function Contact() {
     return (
         <>
             <h1>
@@ -66,4 +66,4 @@ function Resume() {
     )
 }
 
-export default Resume;
+export default Contact;
