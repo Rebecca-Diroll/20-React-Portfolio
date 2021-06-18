@@ -31,7 +31,7 @@ function Work() {
         {
             projectTitle: "Team Profile Generator",
             projectLink: "https://github.com/Rebecca-Diroll/10-Team-Profile-Generator",
-            projectImage: "/images/TeamProfile/Generator",
+            projectImage: "/images/TeamProfileGenerator.jpg",
             projectDesc: "This application is used to create a software team profile using node.js. A team manager, one or more engineers, and one or more interns may be included. Once the information is entered, an HTML page will be created."
         },
         {

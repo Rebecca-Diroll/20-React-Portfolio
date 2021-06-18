@@ -5,10 +5,9 @@ import React from "react";
 function Footer() {
     return (
         <navbar>
-            <button>GitHub</button>
-            <button>LinkedIn</button>
-            <button>Email</button>
-            <button>Phone</button>
+            <a href="https://github.com/Rebecca-Diroll" target="_blank" rel="noopener noreferrer"><button>GitHub</button></a>
+            <a href="https://www.linkedin.com/in/rebecca-diroll-134a44102/" target="_blank" rel="noopener noreferrer"><button>LinkedIn</button></a>
+            <a href="mailto:rebecca.diroll@gmail.com" target="_blank" rel="noopener noreferrer"><button>Email</button></a>
         </navbar>
     )
 }
