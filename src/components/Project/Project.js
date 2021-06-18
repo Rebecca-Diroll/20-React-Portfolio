@@ -8,7 +8,7 @@ function Project(props) {
                 {props.projectTitle}
             </h2>
             <p>
-                <a href={props.projectLink}>{props.projectLink}</a>
+                Link: <a href={props.projectLink}>{props.projectLink}</a>
             </p>
             <p>
                 {props.projectDesc}

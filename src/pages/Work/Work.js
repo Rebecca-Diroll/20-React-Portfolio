@@ -12,9 +12,9 @@ function Work() {
         },
         {
             projectTitle: "Budget Tracker",
-            projectLink: "Link 2",
-            projectImage: "Image 2",
-            projectDesc: "Description 2"
+            projectLink: "https://rdd-budget-tracker.herokuapp.com",
+            projectImage: "/images/BudgetTracker.jpg",
+            projectDesc: "Keep track of finances online, entering income and expenses. Log financial transactions when offline. The application will update the online records when back online."
         },
         {
             projectTitle: "Workout Tracker",
