@@ -18,9 +18,9 @@ function Work() {
         },
         {
             projectTitle: "Workout Tracker",
-            projectLink: "Link 3",
-            projectImage: "Image 3",
-            projectDesc: "Description 3"
+            projectLink: "https://rdd-workout-tracker.herokuapp.com",
+            projectImage: "/images/WorkoutTracker.jpg",
+            projectDesc: "Make healthier choices and lead a more active life. This app keeps track of fitness accomplishments."
         },
         {
             projectTitle: "Tech Blog",
