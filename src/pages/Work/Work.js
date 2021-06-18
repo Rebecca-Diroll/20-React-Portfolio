@@ -24,15 +24,15 @@ function Work() {
         },
         {
             projectTitle: "Tech Blog",
-            projectLink: "Link 4",
-            projectImage: "Image 4",
-            projectDesc: "Description 4"
+            projectLink: "https://rdd-tech-blog.herokuapp.com/",
+            projectImage: "/images/TechBlog.jpg",
+            projectDesc: "The Tech Blog is a place for software engineers to post about development tools and resources that are useful. It is a place to share and collaborate with others."
         },
         {
             projectTitle: "Team Profile Generator",
-            projectLink: "Link 5",
-            projectImage: "Image 5",
-            projectDesc: "Description 5"
+            projectLink: "https://github.com/Rebecca-Diroll/10-Team-Profile-Generator",
+            projectImage: "/images/TeamProfile/Generator",
+            projectDesc: "This application is used to create a software team profile using node.js. A team manager, one or more engineers, and one or more interns may be included. Once the information is entered, an HTML page will be created."
         },
         {
             projectTitle: "Note Taker",
