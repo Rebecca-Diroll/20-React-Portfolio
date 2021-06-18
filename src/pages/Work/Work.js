@@ -6,9 +6,9 @@ function Work() {
     const projectArray = [
         {
             projectTitle: "Trey's List",
-            projectLink: "Link 1",
-            projectImage: "./location/image.jpg",
-            projectDesc: "Description 1"
+            projectLink: "https://treyslist.herokuapp.com",
+            projectImage: "/images/TreysList.jpg",
+            projectDesc: "Trey's List is an application to help students buy or sell textbooks in an effort to save money or earn back some of the cost of the book."
         },
         {
             projectTitle: "Budget Tracker",
@@ -52,7 +52,8 @@ function Work() {
                 { projectArray.map(eachProject => {
                     return (
                         <Project 
-                            projectTitle={eachProject.projectTitle} 
+                            projectTitle={eachProject.projectTitle}
+                            projectLink={eachProject.projectLink} 
                             projectDesc={eachProject.projectDesc}
                             projectImage={eachProject.projectImage}
                         />

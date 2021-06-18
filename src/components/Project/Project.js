@@ -8,10 +8,13 @@ function Project(props) {
                 {props.projectTitle}
             </h2>
             <p>
-                Project Desc {props.projectDesc}
+                <a href={props.projectLink}>{props.projectLink}</a>
+            </p>
+            <p>
+                {props.projectDesc}
             </p>
             <div>
-                Project Image <img src={props.projectImage} alt="project screenshot" />
+                <img src={props.projectImage} alt="project screenshot" />
             </div>
             <br />
             <hr />
