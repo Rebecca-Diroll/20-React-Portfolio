@@ -5,10 +5,8 @@ import { Link } from "react-router-dom";
 function NavTabs() {
     return (
         <navbar>
-          <Link to="/">About Me</Link>
-
-            <Link to="/work"><button>Work</button></Link>
-            <button>Resume</button>
+          <Link to="/"><button>About Me</button></Link>
+          <Link to="/work"><button>Work</button></Link>
         </navbar>
     )
 }

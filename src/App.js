@@ -5,7 +5,6 @@ import Footer from "./components/Footer/Footer.js"
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home/Home.js";
 import Work from "./pages/Work/Work.js";
-import Contact from "./pages/Contact/Contact.js";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
         <NavTabs></NavTabs>
         <Route exact path="/" component={Home} />
         <Route exact path="/work" component={Work} />
-        <Route exact path="/contact" component={Contact} />
         <Footer></Footer>
       </Router>
 
