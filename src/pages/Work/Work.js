@@ -35,10 +35,10 @@ function Work() {
             projectDesc: "This application is used to create a software team profile using node.js. A team manager, one or more engineers, and one or more interns may be included. Once the information is entered, an HTML page will be created."
         },
         {
-            projectTitle: "Note Taker",
-            projectLink: "Link 6",
-            projectImage: "Image 6",
-            projectDesc: "Description 6"
+            projectTitle: "E-Commerce",
+            projectLink: "https://github.com/Rebecca-Diroll/13-E-Commerce",
+            projectImage: "images/ECommerce.jpg",
+            projectDesc: "Keep track of your e-commerce inventory using databases for products, categories, and tags."
         }
     ]
 
