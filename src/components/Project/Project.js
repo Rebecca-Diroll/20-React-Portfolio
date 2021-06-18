@@ -5,7 +5,7 @@ function Project(props) {
     return (
         <>
             <h2>
-                Project Title {props.projectTitle}
+                {props.projectTitle}
             </h2>
             <p>
                 Project Desc {props.projectDesc}
@@ -13,13 +13,10 @@ function Project(props) {
             <div>
                 Project Image <img src={props.projectImage} alt="project screenshot" />
             </div>
-            <div></div>
+            <br />
+            <hr />
         </>
     )
 }
-
-
-
-
 
 export default Project;

@@ -5,37 +5,37 @@ function Work() {
 
     const projectArray = [
         {
-            projectTitle: "Project 1",
+            projectTitle: "Trey's List",
             projectLink: "Link 1",
             projectImage: "./location/image.jpg",
             projectDesc: "Description 1"
         },
         {
-            projectTitle: "Project 2",
+            projectTitle: "Budget Tracker",
             projectLink: "Link 2",
             projectImage: "Image 2",
             projectDesc: "Description 2"
         },
         {
-            projectTitle: "Project 3",
+            projectTitle: "Workout Tracker",
             projectLink: "Link 3",
             projectImage: "Image 3",
             projectDesc: "Description 3"
         },
         {
-            projectTitle: "Project 4",
+            projectTitle: "Tech Blog",
             projectLink: "Link 4",
             projectImage: "Image 4",
             projectDesc: "Description 4"
         },
         {
-            projectTitle: "Project 5",
+            projectTitle: "Team Profile Generator",
             projectLink: "Link 5",
             projectImage: "Image 5",
             projectDesc: "Description 5"
         },
         {
-            projectTitle: "Project 6",
+            projectTitle: "Note Taker",
             projectLink: "Link 6",
             projectImage: "Image 6",
             projectDesc: "Description 6"
@@ -59,7 +59,7 @@ function Work() {
                     )}
                 ) }
             </div>
-            <div></div>
+            <br />
         </>
     )
 }
