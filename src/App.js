@@ -21,8 +21,8 @@ function App() {
         <br />
         <hr />
 
-        <Route exact path="/" component={Home} />
-        <Route exact path="/work" component={Work} />
+        <Route exact path="/2-React-Portfolio" component={Home} />
+        <Route exact path="/2-React-Portfolio/work" component={Work} />
 
         <Footer></Footer>
         <br />
