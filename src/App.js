@@ -21,7 +21,6 @@ function App() {
 
         <NavTabs></NavTabs>
         <br />
-        <br />
         <hr />
 
         <Route exact path="/" component={Home} />
