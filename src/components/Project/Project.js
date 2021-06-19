@@ -1,4 +1,5 @@
 import React from "react";
+import "./Project.css";
 
 function Project(props) {
 
@@ -8,15 +9,18 @@ function Project(props) {
                 {props.projectTitle}
             </h2>
             <p>
-                Link: <a href={props.projectLink}>{props.projectLink}</a>
+                <div className="linkType">Deployed App Link:</div>
+                <div className="linkText">
+                    <a href={props.projectLink}>{props.projectLink}</a>
+                </div>
+                 
             </p>
-            <p>
+            <p className="description">
                 {props.projectDesc}
             </p>
             <div>
-                <img src={props.projectImage} alt="project screenshot" />
+                <img src={props.projectImage} alt="project screenshot" className="projImage" />
             </div>
-            <br />
             <hr />
         </>
     )

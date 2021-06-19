@@ -10,13 +10,11 @@ function App() {
   return (
     <>
       <Router>
-        <h1>Rebecca D. Diroll</h1>
+        <h1 className="mainTitle">Rebecca D. Diroll</h1>
 
-        <div className="header">32019 Beech St., Hanoverton, OH 44423</div>
-        <div className="header">Email: rebecca.diroll@gmail.com</div>
-        <div className="header">Cell: 330-341-0602</div>
-        {/* <div className="header">LinkedIn: https://www.linkedin.com/in/rebecca-diroll-134a44102</div>
-        <div className="header">GitHub: https://github.com/Rebecca-Diroll</div> */}
+        <div className="headerText">32019 Beech St., Hanoverton, OH 44423</div>
+        <div className="headerText">Email: rebecca.diroll@gmail.com</div>
+        <div className="headerText">Cell: 330-341-0602</div>
         <br />
 
         <NavTabs></NavTabs>
@@ -25,8 +23,6 @@ function App() {
 
         <Route exact path="/" component={Home} />
         <Route exact path="/work" component={Work} />
-        <hr />
-        <br />
 
         <Footer></Footer>
         <br />

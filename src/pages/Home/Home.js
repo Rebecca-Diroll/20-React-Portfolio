@@ -10,6 +10,9 @@ function Home() {
             <h2>
                 About Me
             </h2>
+
+            <img src="/images/rebecca-diroll.jpg" alt="Rebecca Diroll" className="profilePic" />
+    
             <p className="homeText">
                 Software Engineer. Full Stack Web Development Bootcamp Certificate 
                 from The Ohio State University.
@@ -28,9 +31,11 @@ function Home() {
             <br />
             <p className="homeText">
                 Technologies include: HTML, CSS, JavaScript, JQuery, JSON, API, Node.js,
-                Express.js, MySQL, Sequelize, Handlebars, OOP, DotEnv, BCrypt, MVC, React,
+                Express.js, MySQL, Sequelize, Mongoose, Handlebars, OOP, DotEnv, BCrypt, MVC, React,
                 GitHub, Heroku, Agile Software Development.
             </p>
+            <br />
+            <hr />
             <br />
         </>
     )

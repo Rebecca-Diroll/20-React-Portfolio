@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "../../components/Project/Project.js"
+import "./Work.css";
 
 function Work() {
 
@@ -8,7 +9,7 @@ function Work() {
             projectTitle: "Trey's List",
             projectLink: "https://treyslist.herokuapp.com",
             projectImage: "/images/TreysList.jpg",
-            projectDesc: "Trey's List is an application to help students buy or sell textbooks in an effort to save money or earn back some of the cost of the book."
+            projectDesc: "Trey's List is an application to help students buy or sell textbooks. This will help to save money or earn back some of the expense."
         },
         {
             projectTitle: "Budget Tracker",
