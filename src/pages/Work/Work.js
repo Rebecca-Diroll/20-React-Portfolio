@@ -1,6 +1,5 @@
 import React from "react";
 import Project from "../../components/Project/Project.js"
-import "./Work.css";
 
 function Work() {
 

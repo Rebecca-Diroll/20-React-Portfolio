@@ -28,7 +28,10 @@ h2 {
 
 headerNav {
   background-color: rgb(109, 185, 102);
-
-
 }
 
+@media screen and (min-width: 400px) {
+  .headerText, button, .homeText {
+    font-size: 1.2em;
+  }
+}
