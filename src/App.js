@@ -11,11 +11,27 @@ function App() {
     <>
       <Router>
         <h1>Rebecca D. Diroll</h1>
-        <br></br>
+
+        <div className="header">32019 Beech St., Hanoverton, OH 44423</div>
+        <div className="header">Email: rebecca.diroll@gmail.com</div>
+        <div className="header">Cell: 330-341-0602</div>
+        {/* <div className="header">LinkedIn: https://www.linkedin.com/in/rebecca-diroll-134a44102</div>
+        <div className="header">GitHub: https://github.com/Rebecca-Diroll</div> */}
+        <br />
+
         <NavTabs></NavTabs>
+        <br />
+        <br />
+        <hr />
+
         <Route exact path="/" component={Home} />
         <Route exact path="/work" component={Work} />
+        <hr />
+        <br />
+
         <Footer></Footer>
+        <br />
+        <br />
       </Router>
 
     </>
