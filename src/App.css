@@ -28,7 +28,79 @@ h2 {
 
 headerNav {
   background-color: rgb(109, 185, 102);
-
-
 }
 
+/* 400px */
+@media only screen and (min-width: 400px) {
+  .headerText {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .mainTitle {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  h2 {
+    font-size: 1.7em;
+  }
+}
+
+/* 600px */
+@media only screen and (min-width: 600px) {
+  .headerText {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mainTitle {
+    font-size: 3.5em;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  h2 {
+    font-size: 2em;
+  }
+}
+
+/* 900px */
+@media only screen and (min-width: 900px) {
+  .headerText {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .mainTitle {
+    font-size: 5em;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  h2 {
+    font-size: 3em;
+  }
+}
