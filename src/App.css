@@ -1,4 +1,9 @@
+body {
+  font-size: 18px;
+}
+
 h1 {
+  font-size: 35px;
   text-align: center;
   background-color: rgb(24, 134, 45);
   color: whitesmoke;
@@ -8,10 +13,11 @@ h1 {
 }
 
 .mainTitle {
-  font-size: 2.4em;
+  font-size: 40px;
 } 
 
 h2 {
+  font-size: 30px;
   text-align: center;
   background-color: rgb(174, 217, 167);
   margin: 5%;
@@ -20,87 +26,88 @@ h2 {
 }
 
 .headerText {
+  font-size: 18px;
   text-align: center;
   background-color: rgb(223, 238, 218);
   margin: 0 5%;
   padding: 2px;
 }
 
-headerNav {
+.headerNav {
   background-color: rgb(109, 185, 102);
 }
 
 /* 400px */
 @media only screen and (min-width: 400px) {
-  .headerText {
-    font-size: 1.2em;
+  body, .headerText {
+    font-size: 20px;
   }
 }
 
 @media only screen and (min-width: 400px) {
   h1 {
-    font-size: 2em;
+    font-size: 35px;
   }
 }
 
 @media only screen and (min-width: 400px) {
   .mainTitle {
-    font-size: 2.5em;
+    font-size: 40px;
   }
 }
 
 @media only screen and (min-width: 400px) {
   h2 {
-    font-size: 1.7em;
+    font-size: 30px;
   }
 }
 
 /* 600px */
 @media only screen and (min-width: 600px) {
   .headerText {
-    font-size: 1.5em;
+    font-size: 28px;
   }
 }
 
 @media only screen and (min-width: 600px) {
   h1 {
-    font-size: 2.5em;
+    font-size: 40px;
   }
 }
 
 @media only screen and (min-width: 600px) {
   .mainTitle {
-    font-size: 3.5em;
+    font-size: 60px;
   }
 }
 
 @media only screen and (min-width: 600px) {
   h2 {
-    font-size: 2em;
+    font-size: 35px;
   }
 }
 
 /* 900px */
 @media only screen and (min-width: 900px) {
   .headerText {
-    font-size: 2.2em;
+    font-size: 40px;
   }
 }
 
 @media only screen and (min-width: 900px) {
   h1 {
-    font-size: 4em;
+    font-size: 60px;
   }
 }
 
 @media only screen and (min-width: 900px) {
   .mainTitle {
-    font-size: 5em;
+    font-size: 90px;
   }
 }
 
 @media only screen and (min-width: 900px) {
   h2 {
-    font-size: 3em;
+    font-size: 50px;
   }
 }

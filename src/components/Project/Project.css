@@ -1,14 +1,19 @@
 .linkType {
+    color: rgb(17, 90, 30);
+    font-size: 18px;
     text-align: center;
     font-weight: bold;
 }
 
 .linkText {
+    color: rgb(24, 134, 45);
+    font-size: 18px;
     text-align: center;
     margin: 0 5% 5% 5%;
 }
 
 .description {
+    font-size: 18px;
     text-align: center;
     background-color: rgb(223, 238, 218);
     margin: 0 5%;
@@ -23,3 +28,20 @@ img {
     border-radius: 5px;
 }
 
+@media only screen and (min-width: 400px) {
+    .linkType, .linkText, .description {
+      font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .linkType, .linkText, .description {
+      font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .linkType, .linkText, .description {
+      font-size: 30px;
+    }
+}

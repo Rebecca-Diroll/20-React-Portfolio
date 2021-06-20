@@ -6,8 +6,8 @@ function NavTabs() {
     return (
       <div className="nav">
         <navbar>
-          <Link className="button" to="/"><button>About Me</button></Link>
-          <Link to="/work"><button>Work</button></Link>
+          <Link className="button" to="/"><button className="headerButton">About Me</button></Link>
+          <Link to="/work"><button className="headerButton">Work</button></Link>
         </navbar>
       </div>
     )

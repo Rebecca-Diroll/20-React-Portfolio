@@ -6,19 +6,19 @@
 }
 
 @media only screen and (min-width: 400px) {
-    .homeText {
-      font-size: 1.2em;
+    .homeText, body {
+      font-size: 20px;
     }
 }
 
 @media only screen and (min-width: 600px) {
-    .homeText {
-      font-size: 1.5em;
+    .homeText, body {
+      font-size: 24px;
     }
 }
 
 @media only screen and (min-width: 900px) {
-    .homeText {
-      font-size: 2em;
+    .homeText, body {
+      font-size: 30px;
     }
-}
+} 

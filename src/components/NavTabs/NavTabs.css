@@ -1,7 +1,21 @@
-.button {
+.headerButton {
     margin: 0 10%;
 }
 
-.nav {
-    margin: 0 27%;
+@media only screen and (min-width: 400px) {
+    .headerButton {
+      font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .headerButton {
+      font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .headerButton {
+      font-size: 30px;
+    }
 }
