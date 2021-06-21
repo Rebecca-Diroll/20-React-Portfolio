@@ -1,9 +1,10 @@
-.footerButton {
-    margin: 0 2%;
-}
-
 .footer {
-    margin: 0 10%;
+    display: grid;
+    text-align: center;
+    grid-template-areas:
+        "f1 f2 f3 f4";
+    padding: 2%;
+    margin: 0 8%;
 }
 
 @media only screen and (min-width: 400px) {

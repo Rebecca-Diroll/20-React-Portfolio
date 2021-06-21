@@ -1,5 +1,11 @@
-.headerButton {
-    margin: 0 10%;
+.navBar {
+    display: grid;
+    text-align: center;
+    grid-template-areas:
+        "hb1 hb2";
+    /* grid-gap: 1%; */
+    padding: 2%;
+    margin: 0 20%;
 }
 
 @media only screen and (min-width: 400px) {
